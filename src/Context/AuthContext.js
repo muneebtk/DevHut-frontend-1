@@ -46,7 +46,7 @@ export const AuthProvider = ({ children }) => {
 
   let loginUser = async (email, password) => {
     setLoading(true);
-    let response = await fetch("https://devhut.shop/user/login/", {
+    let response = await fetch("https://www.devhut.shop/user/login/", {
     // let response = await fetch("http://54.196.94.75/user/login/",{
       method: "POST",
       headers: {
